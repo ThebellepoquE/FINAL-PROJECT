@@ -6,61 +6,113 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;1,700&family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;1,700&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/mainsection.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/common.css">
+
   <script src="https://kit.fontawesome.com/886c08f217.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles/homepage.css">
+
 </head>
 <body>
+<!--Header-->
+
   <div class="header-wrapper">
-    <div class="logo">
-      <img src="images/codepen-wordmark-display-inside-white@10x.png" alt="Logo">
+
+    <div class="left-header">
+      <div class="logo">
+        <img src="images/codepen-wordmark-display-inside-white@10x.png" alt="Logo">
+      </div>
     </div>
 
-    <div class="navigation">
-      <div class="navigation1">
-        EXPLORE
-      </div>
-      <div class="navigation2">
-        <div>Pens</div>
-        <div>Projects</div>
-        <div>Posts</div>
-        <div>Collections</div>
-        <div>Spark <i class="fa-solid fa-chevron-down"></i></div>
-      </div>
-      <div class="actions">
-        <div class="create-btn">
-          Create <i class="fa-solid fa-chevron-down" style="color: #1cca7e;"></i>
+    <div class="center-header"></div>
+      <div class="navigation">
+        <div class="navigation-container">
+          <div class="navigation1">
+            EXPLORE
+          </div>
+          <div class="navigation2">
+              <div>Pens</div>
+              <div>Projects</div>
+              <div>Posts</div>
+              <div>Collections</div>
+              <div class="chevron">Spark <i class="fa-solid fa-chevron-down"></i></div>
+          </div>
         </div>
-        <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
+    </div>  
+  
+    <div class="right-header"></div>
+      <div class="actions-wrapper">
+        <div class="actions">
+          <div class="create-btn">
+            <div class="chevron-green">Create <i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="login-btn">Log In</div>
+          <div class="signup-btn">Sign Up</div>
         </div>
-        <div class="login-btn">Log In</div>
-        <div class="signup-btn">Sign Up</div>
       </div>
     </div>
-  </div> 
+
+<!-- Main -->
+
   <div class="main-section-wrapper">
+
+<!-- Main-Left -->
+  
     <div class="content-left-wrapper">
-      <div class="title">
-        <span>CodePen is a</span> <span class="highlight">social development environment</span> for front-end designers and developers.
-        <span><i class="fa-solid fa-hand-wave"></i></span>
-      </div>
-      <div class="subtitle">
-        It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.
-      </div>
-      <div class="buttons">
-        <div class="signup-btn-green">Sign Up for Free</div>
-        <div class="learn-more-btn">Learn more</div>
+      <div class="text-left">
+
+        <div class="title-text">
+          <span>CodePen is a</span> <span class="highlight-white"> social development environment </span> <span> for front-end designers and developers. </span> <i class="fa-regular fa-hand"></i>
+        </div>
+  
+        <div class="subtitle">
+          <span>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</span>
+        </div>
+        <div class="buttons">
+          <div class="signup-btn-green">Sign Up for Free</div>
+          <div class="learn-more-btn">Learn more</div>
       </div>
     </div>
+  </div>
+    
+<!-- Main-Right --> 
+
     <div class="content-right-wrapper">
-      <div class="title"></div>
-        <span> This is </span> <span class="highlight"> CodePen Project </span> !
+
+      <div class="title">
+        <span> This is </span> <span class="highlight-aqua"> CodePen Project </span> !
       </div>
-      <div class="codepen-right-portion-of-page"></div>
-        <div class="Photo">
-          <img src="images/codepen right portion of page.png" alt="Photo">
-      </div> 
+
+      <div class="codepen-image">
+        <img src="images/codepen right portion of page.png" alt="Photo">
+      </div>
     </div>
+  </div>
+
+<!--Footer-->
+
+  <div class="footer-wrapper">
+
+    <div class="footer">
+      <div class="teams"> 
+        <span> CodePen for </span> <span class="highlight"> TEAMS </span>
+      </div>
+      <div class="education">
+        <span> CodePen for </span> <span class="highlight"> EDUCATION </span>
+      </div>
+      <div class="privacy">
+        <span> CodePen for </span> <span class="highlight"> PRIVACY </span>
+      </div>
+      <div class="writing">
+        <span> CodePen for </span> <span class="highlight"> WRITING </span>
+      </div>
+    </div>
+  </div>  
 </body>
 </html>

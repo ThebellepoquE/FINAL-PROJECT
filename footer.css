@@ -1,0 +1,24 @@
+.footer-wrapper {
+    background-color: black;
+    height: 100px;
+} 
+    
+.footer { 
+    display: flex;
+    height: 40px;
+    background-color: #2a2929; 
+    border-top: 1px solid whitesmoke;
+    border-bottom:  1px solid whitesmoke;
+}
+
+.teams, .education , .privacy, .writing {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 10px; 
+    border-right: 1px solid white;
+}
+
+.writing {
+    border-right: none;
+}
